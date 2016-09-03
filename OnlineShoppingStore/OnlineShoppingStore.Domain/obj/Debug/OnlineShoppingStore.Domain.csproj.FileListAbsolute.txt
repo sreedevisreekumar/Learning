@@ -1,0 +1,10 @@
+C:\Users\Sreekumar\documents\visual studio 2013\Projects\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\OnlineShoppingStore.Domain.dll.config
+C:\Users\Sreekumar\documents\visual studio 2013\Projects\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\OnlineShoppingStore.Domain.dll
+C:\Users\Sreekumar\documents\visual studio 2013\Projects\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\OnlineShoppingStore.Domain.pdb
+C:\Users\Sreekumar\documents\visual studio 2013\Projects\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Sreekumar\documents\visual studio 2013\Projects\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sreekumar\documents\visual studio 2013\Projects\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Sreekumar\documents\visual studio 2013\Projects\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sreekumar\documents\visual studio 2013\Projects\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.dll
+C:\Users\Sreekumar\documents\visual studio 2013\Projects\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.pdb
+C:\Users\Sreekumar\Documents\Visual Studio 2013\Projects\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.csprojResolveAssemblyReference.cache
