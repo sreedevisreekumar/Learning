@@ -1,0 +1,99 @@
+﻿
+@model EntitySample.Models.Books
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Books</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.sales)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sales)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.author)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.author)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.instore)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.instore)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.shipping)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.shipping)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.bestseller)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bestseller)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pub_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pub_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SYS_TS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SYS_TS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageUrl)
+        </dt>
+
+        <dd>
+           @Html.Image(@Model.ImageUrl,@Model.title)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.book_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
