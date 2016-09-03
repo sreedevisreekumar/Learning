@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelsStoreContainer" CdmEntityContainer="SamplesEntities">
+    <EntitySetMapping Name="Books">
+      <EntityTypeMapping TypeName="Models.Books">
+        <MappingFragment StoreEntitySet="BookStore">
+          <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+          <ScalarProperty Name="book_id" ColumnName="book_id" />
+          <ScalarProperty Name="sales" ColumnName="sales" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="author" ColumnName="author" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="instore" ColumnName="instore" />
+          <ScalarProperty Name="shipping" ColumnName="shipping" />
+          <ScalarProperty Name="bestseller" ColumnName="bestseller" />
+          <ScalarProperty Name="pub_date" ColumnName="pub_date" />
+          <ScalarProperty Name="GUID" ColumnName="GUID" />
+          <ScalarProperty Name="SYS_TS" ColumnName="SYS_TS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
