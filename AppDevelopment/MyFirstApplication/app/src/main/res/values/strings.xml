@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="books">Books</string>
+    <string name="movies">Movies</string>
+    <string name="choose">Choose</string>
+    <string name="title_activity_clock">ClockActivity</string>
+</resources>
